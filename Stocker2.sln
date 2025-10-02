@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stocker2", "Stocker2.csproj", "{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Debug|x64.ActiveCfg = Debug|x64
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Debug|x64.Build.0 = Debug|x64
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Debug|x86.ActiveCfg = Debug|x86
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Debug|x86.Build.0 = Debug|x86
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Release|x64.ActiveCfg = Release|x64
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Release|x64.Build.0 = Release|x64
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Release|x86.ActiveCfg = Release|x86
+		{FECFB3DD-A3BC-40A5-97E4-1F282778DEDE}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEF7E514-3542-44B5-B3E6-C0359592FB18}
+	EndGlobalSection
+EndGlobal

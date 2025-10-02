@@ -1,0 +1,78 @@
+﻿添加cmd功能  2022年6月20日23:10:27
+
+最好能实现双击左右切换(查询后发现双击功能有bug)
+可以多选
+保存功能等实现
+
+可以选择txt列表，并保存  2022年7月26日20:19:08
+
+
+2022年8月3日01:28:25 基本ok
+
+2022年8月3日14:19:48 图标生成
+
+2022年8月4日08:37:53 空间分析
+
+KryptonContextMenu 结合kryptonCommond 只能一对一，待研究
+左上角小图标可以点击 ，切换到下方里双击，写入事件
+
+可以从获取分时及日k线图了，后面有变化再修改  2022年8月21日22:12:11
+异步C# async await  Task 初识
+差不多是终极版本了，2022年8月22日15:10:24
+
+Freezer是获取网页图片，再从中截图，功能已保留
+现在换成获取网站页面，可以互动，更好，使用控件CefSharp  2022年8月23日14:46:55
+
+
+        Try
+            Dim queryUrl As String = searchE(txtUrl.Text, "^.+\.(com.cn|com|net.cn|net|org.cn|org|gov.cn|gov|cn|mobi|me|la|info|name|biz|cc|tv|asia|hk|tw|网络|公司|中国)\/")
+
+            'lblPr.Text = "" & GetPr(queryUrl) 'get pr
+            Dim strConfig As String = "http://data.alexa.com/data?cli=10&dat=snba&url=" & queryUrl
+            Dim reader As New Xml.XmlTextReader(strConfig)
+            Dim alexaInfo As String = ""
+            While reader.Read
+                If reader.Name = "POPULARITY" Then
+                    alexaInfo = reader.GetAttribute("TEXT")
+                End If
+            End While
+            reader.Close()
+            If alexaInfo = "" Then
+                lblAlexa.Text = "" & "Nameless"
+            Else
+                lblAlexa.Text = "" & alexaInfo
+            End If
+
+        Catch ex As Exception
+            'MsgBox(ex)
+            Exit Sub
+        End Try
+
+
+最前  2022年9月1日20:43:11
+
+浏览器占用空间5秒统计一次
+
+细节优化，加小图标，加长列表  2022年9月29日 09:53:40
+
+关机小图标  2022年10月17日, AM 08:10:18
+
+添加北向资金查看 2022年12月11日 23:02:20
+
+后续建议
+备注记事以文件形式保存到电脑
+
+webview更新了
+Ai语音 tts页面引入 2023年2月7日 19:56:46
+
+notes目录，支持多个备忘
+
+简易备忘可以了 2023年3月7日, PM 05:31:46
+可删除 备忘  2023年3月7日, PM 09:02:35
++全选 
+
+股票池可以搜索并选中 2023年4月30日20:17:26
+
+2025年10月1日15:36:14
+好像必须 debug x64
+主页设置

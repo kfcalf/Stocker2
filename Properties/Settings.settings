@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Stocker2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="webhome" Type="System.String" Scope="User">
+      <Value Profile="(Default)">http://mynav.ccccocccc.cc/index.html</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

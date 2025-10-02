@@ -1,0 +1,11 @@
+﻿已启动生成…
+● Started at 09:30:47
+1>------ 已启动生成: 项目: Stocker2, 配置: Debug Any CPU ------
+1>  COM 引用“WMPLib”是 ActiveX 控件“AxWMPLib”的互操作程序集，但含有 /link 标志的编译器已将其标为已链接。系统会将此 COM 引用视为引用，并且不会链接该引用。
+1>D:\bd2022\Stocker2 listbox\Stocker2\Form1.cs(13,7,13,36): warning CS0105: “System.Net.NetworkInformation”的 using 指令以前在此命名空间中出现过
+1>D:\bd2022\Stocker2 listbox\Stocker2\Form1.cs(257,26,257,56): warning CS0618: “Dns.Resolve(string)”已过时:“Resolve is obsoleted for this type, please use GetHostEntry instead. http://go.microsoft.com/fwlink/?linkid=14202”
+1>D:\bd2022\Stocker2 listbox\Stocker2\Form1.cs(295,34,295,35): warning CS0168: 声明了变量“e”，但从未使用过
+1>D:\bd2022\Stocker2 listbox\Stocker2\Form1.cs(31,16,31,22): warning CS0414: 字段“Form1.ipInfo”已被赋值，但从未使用过它的值
+1>  Stocker2 -> D:\bd2022\Stocker2 listbox\Stocker2\bin\Debug\Stocker2.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========
+● Finished at 09:30:47 (total time 0.32s)
